@@ -3,22 +3,22 @@ class Annotary < Formula
   homepage "https://github.com/josh-andrews-dev/annotary"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/josh-andrews-dev/annotary/releases/download/v0.3.2/annotary-aarch64-apple-darwin.tar.gz"
-      sha256 "5128c4a2a7de320d0f0b309783028f229008f9be6514f8201852815c8d15e975"
+      url "https://github.com/josh-andrews-dev/annotary/releases/download/v0.3.3/annotary-aarch64-apple-darwin.tar.gz"
+      sha256 "0de287b7ff7e564a67eebe5a380be0eac18ade2ca8c49adf0d6af4014ba64053"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/josh-andrews-dev/annotary/releases/download/v0.3.2/annotary-x86_64-apple-darwin.tar.gz"
-      sha256 "93702d6fd59ed6c70f54d5a06ea4f833c7db739a6728910e9f58e5904d6917bb"
+      url "https://github.com/josh-andrews-dev/annotary/releases/download/v0.3.3/annotary-x86_64-apple-darwin.tar.gz"
+      sha256 "523c597b9c2ef15e017847043abb880ee9050bb50b4acb7cb1a08a511c6b2209"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/josh-andrews-dev/annotary/releases/download/v0.3.2/annotary-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c0b1e2ced8fd371c1d7ed9995d8d2ed19dd97f6cce630d77a1912244af9ae624"
+      url "https://github.com/josh-andrews-dev/annotary/releases/download/v0.3.3/annotary-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0707b851d79574dda48eecf67b0ef9e6ad24ff73598b5bc9da82fad4f6b1eec0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/josh-andrews-dev/annotary/releases/download/v0.3.2/annotary-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f7c699f76f0bb128def0b3478b14e6eac4a4222e841d77d523b86f414d9672db"
+      url "https://github.com/josh-andrews-dev/annotary/releases/download/v0.3.3/annotary-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "cd9eb344a1d11f701e8ed53a0ce7232adf16b77df56589e14bf394b5e6f8d4ea"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
